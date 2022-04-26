@@ -44,7 +44,24 @@ void main()
 // there is also a 16 option one, which is (2^16 - 1)
 // █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ 
 
+=====================================================================================================================================================================
 
+
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdlib.h>
+#include <stdio.h>
+
+
+void main()
+{
+	int num1=6;
+	int* P1;
+	P1 = &num1;  //P1 takes the address memory from num1;
+	*P1 = 10;
+	printf("%d \n", *P1);
+	printf("%d", num1);
+
+}
 
 
 
